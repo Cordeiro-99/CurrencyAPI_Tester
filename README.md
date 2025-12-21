@@ -1,16 +1,51 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+----------------
+# Currency API Tester
 
-Currently, two official plugins are available:
+Este projeto foi criado com o objetivo de **praticar a utilização de APIs de conversão de moedas (currency exchange)**, bem como consolidar conhecimentos de **JavaScript, consumo de APIs REST e manipulação de dados assíncronos**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ **Projeto em desenvolvimento** – este README é temporário e será atualizado futuramente.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivo do Projeto
 
-## Expanding the ESLint configuration
+- Consumir uma API de moedas (exchange rates)
+- Efetuar conversões entre diferentes moedas
+- Trabalhar com `fetch` / `async/await`
+- Praticar tratamento de erros e respostas da API
+- Testar integração entre frontend e backend (se aplicável)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## 🚀 Funcionalidades (em progresso)
+
+- Seleção de moeda de origem e destino
+- Conversão de valores em tempo real
+- Validação de inputs
+- Tratamento de erros da API
+
+---
+
+## 📌 Estado do Projeto
+
+🔧 **No começo / projeto de treino**
+
+Algumas funcionalidades podem estar incompletas ou sujeitas a alterações.
+
+---
+
+## 📄 Notas
+
+Este projeto tem fins **educativos**, servindo como prática de:
+- Consumo de APIs
+- Organização de código
+- Fluxo de dados assíncronos
+
+---
+
+## 👤 Autor
+
+**Bruno Cordeiro**  
+Projeto de prática pessoal
