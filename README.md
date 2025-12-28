@@ -14,7 +14,7 @@ Este projeto foi criado com o objetivo de **praticar a utilização de APIs de c
 - Efetuar conversões entre diferentes moedas
 - Trabalhar com `fetch` / `async/await`
 - Praticar tratamento de erros e respostas da API
-- Testar integração entre frontend e backend (se aplicável)
+
 
 ---
 
