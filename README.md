@@ -1,51 +1,68 @@
+# 💱 CurrencyAPI Tester
 
-----------------
-# Currency API Tester
-
-Este projeto foi criado com o objetivo de **praticar a utilização de APIs de conversão de moedas (currency exchange)**, bem como consolidar conhecimentos de **JavaScript, consumo de APIs REST e manipulação de dados assíncronos**.
-
-> ⚠️ **Projeto em desenvolvimento** – este README é temporário e será atualizado futuramente.
+Este projeto é uma aplicação **Web** moderna e responsiva, desenvolvida para demonstrar a capacidade de **consumir e processar dados de uma API de taxas de câmbio em tempo real**. Serve como um exercício prático na integração de serviços externos e na construção de interfaces de utilizador dinâmicas.
 
 ---
 
-## 🎯 Objetivo do Projeto
+## 🚀 Funcionalidades
 
-- Consumir uma API de moedas (exchange rates)
-- Efetuar conversões entre diferentes moedas
-- Trabalhar com `fetch` / `async/await`
-- Praticar tratamento de erros e respostas da API
+A aplicação oferece as seguintes funcionalidades principais:
 
-
----
-
-
-## 🚀 Funcionalidades (em progresso)
-
-- Seleção de moeda de origem e destino
-- Conversão de valores em tempo real
-- Validação de inputs
-- Tratamento de erros da API
+1.  **Seleção de Moedas:** Permite ao utilizador selecionar a moeda de origem e a moeda de destino a partir de uma lista abrangente (ex: EUR, USD, JPY, BRL, etc.).
+2.  **Conversão em Tempo Real:** Calcula e exibe o valor convertido instantaneamente após a inserção do montante.
+3.  **Interface Intuitiva:** Um *design* limpo e minimalista que facilita a utilização.
+4.  **Modo Escuro (Dark Mode):** Alternância entre temas claro e escuro para melhor ergonomia visual.
 
 ---
 
-## 📌 Estado do Projeto
+## ⚙️ Como Utilizar (Desenvolvimento Local)
 
-🔧 **No começo / projeto de treino**
+Para executar este projeto localmente, siga os passos abaixo:
 
-Algumas funcionalidades podem estar incompletas ou sujeitas a alterações.
+### Pré-requisitos
+
+*   Node.js (versão 18+)
+*   Uma chave de API da [ExchangeRate-API](https://www.exchangerate-api.com/)
+
+### Instalação
+
+1.  **Clonar o repositório:**
+    ```bash
+    git clone https://github.com/Cordeiro-99/CurrencyAPI_Tester.git
+    cd CurrencyAPI_Tester
+    ```
+
+2.  **Instalar as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+
+3.  **Configurar a Chave de API:**
+    Crie um ficheiro `.env` na raiz do projeto e adicione a sua chave de API:
+    ```
+    VITE_EXCHANGE_API_KEY="SUA_CHAVE_DE_API_AQUI"
+    ```
+
+4.  **Iniciar a Aplicação:**
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    ```
+    A aplicação estará acessível em `http://localhost:5173` (ou porta similar).
 
 ---
 
-## 📄 Notas
-
-Este projeto tem fins **educativos**, servindo como prática de:
-- Consumo de APIs
-- Organização de código
-- Fluxo de dados assíncronos
-
----
 
 ## 👤 Autor
 
-**Bruno Cordeiro**  
-Projeto de prática pessoal
+**Bruno Cordeiro**
+
+*   [GitHub](https://github.com/Cordeiro-99)
+---
+
+## 🔗 Referências
+
+[1] [ExchangeRate-API](https://www.exchangerate-api.com/) - A API de taxas de câmbio utilizada neste projeto.
